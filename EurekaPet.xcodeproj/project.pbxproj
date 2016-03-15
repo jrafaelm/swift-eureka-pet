@@ -1,0 +1,386 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 46;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		B7F753411C90A4B900C585C7 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = B7F753401C90A4B900C585C7 /* AppDelegate.swift */; };
+		B7F753431C90A4B900C585C7 /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = B7F753421C90A4B900C585C7 /* ViewController.swift */; };
+		B7F753461C90A4B900C585C7 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = B7F753441C90A4B900C585C7 /* Main.storyboard */; };
+		B7F753491C90A4B900C585C7 /* EurekaPet.xcdatamodeld in Sources */ = {isa = PBXBuildFile; fileRef = B7F753471C90A4B900C585C7 /* EurekaPet.xcdatamodeld */; };
+		B7F7534B1C90A4B900C585C7 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = B7F7534A1C90A4B900C585C7 /* Assets.xcassets */; };
+		B7F7534E1C90A4B900C585C7 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = B7F7534C1C90A4B900C585C7 /* LaunchScreen.storyboard */; };
+		C445192D0C4C033014532C24 /* Pods_EurekaPet.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = D0E740ABDD23508D1D03C0C6 /* Pods_EurekaPet.framework */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXFileReference section */
+		2F60D3A49D975E2DC9831D35 /* Pods-EurekaPet.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-EurekaPet.debug.xcconfig"; path = "Pods/Target Support Files/Pods-EurekaPet/Pods-EurekaPet.debug.xcconfig"; sourceTree = "<group>"; };
+		B7F7533D1C90A4B900C585C7 /* EurekaPet.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = EurekaPet.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		B7F753401C90A4B900C585C7 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
+		B7F753421C90A4B900C585C7 /* ViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewController.swift; sourceTree = "<group>"; };
+		B7F753451C90A4B900C585C7 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
+		B7F753481C90A4B900C585C7 /* EurekaPet.xcdatamodel */ = {isa = PBXFileReference; lastKnownFileType = wrapper.xcdatamodel; path = EurekaPet.xcdatamodel; sourceTree = "<group>"; };
+		B7F7534A1C90A4B900C585C7 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
+		B7F7534D1C90A4B900C585C7 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
+		B7F7534F1C90A4B900C585C7 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		D0E740ABDD23508D1D03C0C6 /* Pods_EurekaPet.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_EurekaPet.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		ECB50E8D93EFE0C8DDF8AD90 /* Pods-EurekaPet.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-EurekaPet.release.xcconfig"; path = "Pods/Target Support Files/Pods-EurekaPet/Pods-EurekaPet.release.xcconfig"; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		B7F7533A1C90A4B900C585C7 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				C445192D0C4C033014532C24 /* Pods_EurekaPet.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		B7F753341C90A4B900C585C7 = {
+			isa = PBXGroup;
+			children = (
+				B7F7533F1C90A4B900C585C7 /* EurekaPet */,
+				B7F7533E1C90A4B900C585C7 /* Products */,
+				FA5EF0A7061D85F75A91332D /* Pods */,
+				BDD67413C1BADC02F34272B6 /* Frameworks */,
+			);
+			sourceTree = "<group>";
+		};
+		B7F7533E1C90A4B900C585C7 /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				B7F7533D1C90A4B900C585C7 /* EurekaPet.app */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		B7F7533F1C90A4B900C585C7 /* EurekaPet */ = {
+			isa = PBXGroup;
+			children = (
+				B7F753401C90A4B900C585C7 /* AppDelegate.swift */,
+				B7F753421C90A4B900C585C7 /* ViewController.swift */,
+				B7F753441C90A4B900C585C7 /* Main.storyboard */,
+				B7F7534A1C90A4B900C585C7 /* Assets.xcassets */,
+				B7F7534C1C90A4B900C585C7 /* LaunchScreen.storyboard */,
+				B7F7534F1C90A4B900C585C7 /* Info.plist */,
+				B7F753471C90A4B900C585C7 /* EurekaPet.xcdatamodeld */,
+			);
+			path = EurekaPet;
+			sourceTree = "<group>";
+		};
+		BDD67413C1BADC02F34272B6 /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				D0E740ABDD23508D1D03C0C6 /* Pods_EurekaPet.framework */,
+			);
+			name = Frameworks;
+			sourceTree = "<group>";
+		};
+		FA5EF0A7061D85F75A91332D /* Pods */ = {
+			isa = PBXGroup;
+			children = (
+				2F60D3A49D975E2DC9831D35 /* Pods-EurekaPet.debug.xcconfig */,
+				ECB50E8D93EFE0C8DDF8AD90 /* Pods-EurekaPet.release.xcconfig */,
+			);
+			name = Pods;
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		B7F7533C1C90A4B900C585C7 /* EurekaPet */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = B7F753521C90A4B900C585C7 /* Build configuration list for PBXNativeTarget "EurekaPet" */;
+			buildPhases = (
+				13E2A78D103CD8ECA90B4AD6 /* Check Pods Manifest.lock */,
+				B7F753391C90A4B900C585C7 /* Sources */,
+				B7F7533A1C90A4B900C585C7 /* Frameworks */,
+				B7F7533B1C90A4B900C585C7 /* Resources */,
+				25F3D28080494F954EB34F56 /* Embed Pods Frameworks */,
+				C6490B619D0AEBAB504887B9 /* Copy Pods Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = EurekaPet;
+			productName = EurekaPet;
+			productReference = B7F7533D1C90A4B900C585C7 /* EurekaPet.app */;
+			productType = "com.apple.product-type.application";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		B7F753351C90A4B900C585C7 /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				LastSwiftUpdateCheck = 0720;
+				LastUpgradeCheck = 0720;
+				ORGANIZATIONNAME = "Jose Rafael";
+				TargetAttributes = {
+					B7F7533C1C90A4B900C585C7 = {
+						CreatedOnToolsVersion = 7.2.1;
+					};
+				};
+			};
+			buildConfigurationList = B7F753381C90A4B900C585C7 /* Build configuration list for PBXProject "EurekaPet" */;
+			compatibilityVersion = "Xcode 3.2";
+			developmentRegion = English;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = B7F753341C90A4B900C585C7;
+			productRefGroup = B7F7533E1C90A4B900C585C7 /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				B7F7533C1C90A4B900C585C7 /* EurekaPet */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		B7F7533B1C90A4B900C585C7 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				B7F7534E1C90A4B900C585C7 /* LaunchScreen.storyboard in Resources */,
+				B7F7534B1C90A4B900C585C7 /* Assets.xcassets in Resources */,
+				B7F753461C90A4B900C585C7 /* Main.storyboard in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXShellScriptBuildPhase section */
+		13E2A78D103CD8ECA90B4AD6 /* Check Pods Manifest.lock */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+			);
+			name = "Check Pods Manifest.lock";
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "diff \"${PODS_ROOT}/../Podfile.lock\" \"${PODS_ROOT}/Manifest.lock\" > /dev/null\nif [[ $? != 0 ]] ; then\n    cat << EOM\nerror: The sandbox is not in sync with the Podfile.lock. Run 'pod install' or update your CocoaPods installation.\nEOM\n    exit 1\nfi\n";
+			showEnvVarsInLog = 0;
+		};
+		25F3D28080494F954EB34F56 /* Embed Pods Frameworks */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+			);
+			name = "Embed Pods Frameworks";
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${SRCROOT}/Pods/Target Support Files/Pods-EurekaPet/Pods-EurekaPet-frameworks.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
+		C6490B619D0AEBAB504887B9 /* Copy Pods Resources */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+			);
+			name = "Copy Pods Resources";
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${SRCROOT}/Pods/Target Support Files/Pods-EurekaPet/Pods-EurekaPet-resources.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
+/* End PBXShellScriptBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		B7F753391C90A4B900C585C7 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				B7F753491C90A4B900C585C7 /* EurekaPet.xcdatamodeld in Sources */,
+				B7F753431C90A4B900C585C7 /* ViewController.swift in Sources */,
+				B7F753411C90A4B900C585C7 /* AppDelegate.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXVariantGroup section */
+		B7F753441C90A4B900C585C7 /* Main.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				B7F753451C90A4B900C585C7 /* Base */,
+			);
+			name = Main.storyboard;
+			sourceTree = "<group>";
+		};
+		B7F7534C1C90A4B900C585C7 /* LaunchScreen.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				B7F7534D1C90A4B900C585C7 /* Base */,
+			);
+			name = LaunchScreen.storyboard;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
+
+/* Begin XCBuildConfiguration section */
+		B7F753501C90A4B900C585C7 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 9.2;
+				MTL_ENABLE_DEBUG_INFO = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = iphoneos;
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
+			};
+			name = Debug;
+		};
+		B7F753511C90A4B900C585C7 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 9.2;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				SDKROOT = iphoneos;
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		B7F753531C90A4B900C585C7 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 2F60D3A49D975E2DC9831D35 /* Pods-EurekaPet.debug.xcconfig */;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				INFOPLIST_FILE = EurekaPet/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = com.jrafaelm.EurekaPet;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+			};
+			name = Debug;
+		};
+		B7F753541C90A4B900C585C7 /* Release */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = ECB50E8D93EFE0C8DDF8AD90 /* Pods-EurekaPet.release.xcconfig */;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				INFOPLIST_FILE = EurekaPet/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = com.jrafaelm.EurekaPet;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		B7F753381C90A4B900C585C7 /* Build configuration list for PBXProject "EurekaPet" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				B7F753501C90A4B900C585C7 /* Debug */,
+				B7F753511C90A4B900C585C7 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		B7F753521C90A4B900C585C7 /* Build configuration list for PBXNativeTarget "EurekaPet" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				B7F753531C90A4B900C585C7 /* Debug */,
+				B7F753541C90A4B900C585C7 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+
+/* Begin XCVersionGroup section */
+		B7F753471C90A4B900C585C7 /* EurekaPet.xcdatamodeld */ = {
+			isa = XCVersionGroup;
+			children = (
+				B7F753481C90A4B900C585C7 /* EurekaPet.xcdatamodel */,
+			);
+			currentVersion = B7F753481C90A4B900C585C7 /* EurekaPet.xcdatamodel */;
+			path = EurekaPet.xcdatamodeld;
+			sourceTree = "<group>";
+			versionGroupType = wrapper.xcdatamodel;
+		};
+/* End XCVersionGroup section */
+	};
+	rootObject = B7F753351C90A4B900C585C7 /* Project object */;
+}
