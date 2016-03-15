@@ -5,4 +5,4 @@ Code sample to demonstrate how Eureka library can be flexible, and productive wh
 
 Basically, the sample dynamically adds and removes entire sections of the form, and also adds and removes rows (IntRow) based on a Quantity row (IntRow)
 
-![alt tag](http://i.giphy.com/xThuWpn4pt1plKBl7y.gif)
+![samplegif](https://cloud.githubusercontent.com/assets/692036/13785487/87798b26-eab2-11e5-8578-c972538d4acb.gif)
